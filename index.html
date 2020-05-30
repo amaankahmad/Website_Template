@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Import materialize.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Import Font Awsome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Import my CSS file -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <title>amaankahmad</title>
+</head>
+<style>
+    header {
+        background: url(img/Imperial.jpeg);
+        background-size: cover;
+        background-position: center;
+        min-height: 500px;
+        overflow: hidden
+    }
+    
+    .section {
+        padding-top: 4vw;
+        padding-bottom: 3vw;
+    }
+    
+    @media screen and (max-width: 670px) {
+        header {
+            min-height: 500px;
+        }
+    }
+    
+    body {
+        background-color: black;
+    }
+    
+    a {
+        font-size: 20px
+    }
+    
+    input {
+        color: white;
+    }
+    
+    textarea {
+        color: white;
+    }
+    
+    span {
+        display: block;
+    }
+    
+    nav .icon {
+        position: relative;
+        top: 0px;
+        right: 0px;
+        overflow: hidden;
+    }
+</style>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <header>
+        <nav class="nav-wrapper transparent">
+            <div class="container">
+                <a href="" class="brand-logo teal-text text-lighten-4">amaankahmad</a>
+                <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#AboutMe" class="teal-text text-lighten-4">About Me</a></li>
+                    <li><a href="#Photos" class="teal-text text-lighten-4">Photos</a></li>
+                    <li><a href="#Projects" class="teal-text text-lighten-4">Projects</a></li>
+                    <li><a href="#Contact" class="teal-text text-lighten-4">Contact</a></li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/amaankahmad/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BgibhL6WgTnWB7hdBm9WDyw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_profile_view_base-nav.settings_view_profile&challengeId=AQEx7U-Qs3kzRAAAAXIUgSH9GcULopYR3kLb2Qm-6VkwAUOmzSaLINUtmow3P4hcjHUeky4eoSY3D-_wSyekbdZnXwjWHZqbBw&submissionId=3bcd7756-5ff9-0e16-1be9-068e87b61c3c"
+                            class="tooltipped btn-floating btn-small blue lighten-1" data-tooltip="Linked-In">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/amaan.ahmad.71697" class="tooltipped btn-floating icon btn-small blue darken-4" data-tooltip="Facebook">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:amaankahmad@gmail.com" class="tooltipped btn-floating btn-small red darken-2" data-tooltip="Gmail">
+                            <i class="material-icons prefix">email</i>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="sidenav grey lighten-2" id="mobile-menu">
+                    <li><a href="#Photos">Photos</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/amaankahmad/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BgibhL6WgTnWB7hdBm9WDyw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_profile_view_base-nav.settings_view_profile&challengeId=AQEx7U-Qs3kzRAAAAXIUgSH9GcULopYR3kLb2Qm-6VkwAUOmzSaLINUtmow3P4hcjHUeky4eoSY3D-_wSyekbdZnXwjWHZqbBw&submissionId=3bcd7756-5ff9-0e16-1be9-068e87b61c3c"
+                            class="btn-small blue lighten-1" data-tooltip="Linked-In">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/amaan.ahmad.71697" class="icon btn-small blue darken-4" data-tooltip="Facebook">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:amaankahmad@gmail.com" class="btn-small red darken-2" data-tooltip="Gmail">
+                            <i class="material-icons prefix">email</i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- About Me -->
+
+    <section class="container scrollspy" id="AboutMe" style="padding-top: 1vw; padding-bottom: 2vw;">
+        <div class="row">
+            <div class="col s12 l6">
+                <img src="img/me.jpg" alt="" class="responsive-img materialboxed" style="padding-top: 5vw; border-radius: 0.2vw 4vw;">
+            </div>
+            <div class="col s12 l6" style="padding-left: 2%;">
+                <h2 class="teal-text"> Welcome!</h2>
+                <p class="white-text">A little short introduction; I'm Amaan Ahmad, and this is my personal website, regarding who I am, all my projects and aspirations. Currently I am a 1st year Medical Engineering Student at Imperial College London, looking to go pursue
+                    Human-Computer Interaction / Prosthetic technologies in the future!</p>
+                <p class="white-text">Having started university in 2019, I have become increasingly interested in Robotics and Software development. This interest has taken up the form of Web and App development in my free time as well as more hardware focused projects through
+                    Hackathons, my degree projects and the IC Robotics Society. Currently, I am looking to develop my knowledge in neighbouring disciplines whilst making relevant contacts! If you would like to connect - please reach out via the links
+                    above or the contact form below!</p>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- parallax -->
+
+    <div class="parallax-container hide-on-med-and-down">
+        <div class="parallax">
+            <img src="img/aero.jpg" alt="" class="responsive-img">
+        </div>
+    </div>
+
+    <div class="hide-on-large-only">
+        <div class="">
+            <img src="img/aero copy.jpg" alt="" class="responsive-img">
+        </div>
+    </div>
+
+    <!-- services / tabs -->
+
+    <section class="container section scrollspy" id="Projects">
+        <div class="row">
+            <div class="col s12 l3 pull-l1" style="padding-top: 1vw;">
+                <h2 class="teal-text" style="padding-top: 2vw;">Projects</h2>
+                <p class="white-text">This section is regarding my current and past projects in Robotics, Engineering and Software Development.</p>
+                <p class="white-text center-align">For more information click below for my repository:</p>
+                <ul class="hide-on-med-and-down">
+                    <li style="padding-left: 10%;">
+                        <a href="https://www.linkedin.com/in/amaankahmad/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BgibhL6WgTnWB7hdBm9WDyw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_profile_view_base-nav.settings_view_profile&challengeId=AQEx7U-Qs3kzRAAAAXIUgSH9GcULopYR3kLb2Qm-6VkwAUOmzSaLINUtmow3P4hcjHUeky4eoSY3D-_wSyekbdZnXwjWHZqbBw&submissionId=3bcd7756-5ff9-0e16-1be9-068e87b61c3c"
+                            class="tooltipped btn teal lighten-1" data-tooltip="Github">
+                            <i class="fab fa-github"> Github</i>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="hide-on-large-only">
+                    <li style="padding-left: 30%;">
+                        <a href="https://www.linkedin.com/in/amaankahmad/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BgibhL6WgTnWB7hdBm9WDyw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_profile_view_base-nav.settings_view_profile&challengeId=AQEx7U-Qs3kzRAAAAXIUgSH9GcULopYR3kLb2Qm-6VkwAUOmzSaLINUtmow3P4hcjHUeky4eoSY3D-_wSyekbdZnXwjWHZqbBw&submissionId=3bcd7756-5ff9-0e16-1be9-068e87b61c3c"
+                            class="tooltipped btn teal lighten-1" data-tooltip="Github">
+                            <i class="fab fa-github"> Github</i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col s12 l8 offset-l1">
+                <!-- tabs -->
+                <ul class="tabs black">
+                    <li class="tab col s6">
+                        <a href="#CurrentProjects" class="active teal-text text-lighten-2">Current Projects</a>
+                    </li>
+                    <li class="tab col s6">
+                        <a href="#PastProjects" class="teal-text text-lighten-2">Past Projects</a>
+                    </li>
+                </ul>
+                <div id="CurrentProjects" class="col s12">
+                    <p class="flow-text teal-text">Current Projects</p>
+                    </p>
+                    <ul class="collapsible">
+                        <li>
+                            <div class="collapsible-header black teal-text">
+                                <i class="fab fa-python"></i>Python</div>
+                            <div class="collapsible-body black">
+                                <span class="white-text"> - MIT OpenCourseWare on 'Introduction to Computer Science and Programming in Python to develop my knowledge in Object Oriented Programming as well as in Data Structure and Algorithms.</span>
+                                <span class="white-text"> - EDX Harvard CS50 course on 'Introduction to Artificial Intelligence with Python' as my first major experience with Artificial Intelligence and hoping to expand this into Deep Learning Projects in the future!</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header black teal-text">
+                                <i class="fa fa-copyright"></i>C</div>
+                            <div class="collapsible-body black">
+                                <span class="white-text"> - Developing Object Oriented Programming through Objective C in iOS Development</span>
+                                <span class="white-text"> - Incorporating what I've learnt in EDX Harvard CS50 Artificial Intelligence course to C</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header black teal-text">
+                                <i class="fa fa-mobile"></i>Swift (iOS Development)</div>
+                            <div class="collapsible-body black">
+                                <span class="white-text"> - Stanford's CS139P Open Source course on iOS App development, developing my skills in Object Orientated Programming</span>
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header black teal-text">
+                                <i class="fa fa-microchip"></i>Arduino</div>
+                            <div class="collapsible-body black">
+                                <span class="white-text"> - As part of my degree we have an Arduino module </span>
+                                <span class="white-text"> - Developed HealthHack20 prototype using Arduino Nano, see Past Projects for more details! </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header black teal-text">
+                                <i class="fa fa-cogs"></i>SolidWorks and OrCAD</div>
+                            <div class="collapsible-body black">
+                                <span class="white-text"> - As part of my degree we have a CAD module </span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div id="PastProjects" class="col s12">
+                    </ul>
+                    <div id="CurrentProjects" class="col s12">
+                        <p class="flow-text teal-text">Past Projects</p>
+                        </p>
+                        <ul class="collapsible">
+                            <li>
+                                <div class="collapsible-header black teal-text">
+                                    <i class="fab fa-python"></i>Python</div>
+                                <div class="collapsible-body black">
+                                    <span class="white-text"> - Imperial DocSoc Python for Beginner's Course 2020</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header black teal-text">
+                                    <i class="fa fa-copyright"></i>C</div>
+                                <div class="collapsible-body black">
+                                    <span class="white-text"> - Robotics and Wireless Communications Work Experience at King's College London with Professor Mischa Dohler based in C</span>
+                                    <span class="white-text"> - Through my degree have learnt concepts of programming in C as an extension to our Computer Fundamentals (Digital Logics)</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header black teal-text">
+                                    <i class="material-icons">http</i>HTML, CSS, PHP, JS</div>
+                                <div class="collapsible-body black">
+                                    <span class="white-text"> - Through this website I have developed my skills in these set of programming languages</span>
+                                    <span class="white-text"> - Co-Designed ApeironInc. website (2018-2019)</span>
+
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header black teal-text">
+                                    <i class="fa fa-heartbeat"></i>ICHealthHack20</div>
+                                <div class="collapsible-body black">
+                                    <span class="white-text"> - Team Captain for team developing vest for athletes that would track cardiovascular health improvements as well as posture when performing movements in training. Included pulse sensors to vibrate at muscle locations to signal for a quick correction to the athelte (by contracting that muscle). Also included an Android Studio App signalling recurring physiological issues and NHS Support documentation and relevant contacts for said issues.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header black teal-text">
+                                    <i class="fa fa-stethoscope"></i>Electronic Stethoscope Circuit</div>
+                                <div class="collapsible-body black">
+                                    <span class="white-text"> - In 1st year as a degree project; developed an Electronic Stethoscope Circuit using foundational knowledge built in my Electrical Engineering and Vibrations & Waves Modules.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header black teal-text">
+                                    <i class="fa fa-fighter-jet"></i>2018 RAF AeroSpace Challenge</div>
+                                <div class="collapsible-body black">
+                                    <span class="white-text"> - Team Captain for Finalist Team; designed 3 technological adaptations to the RAF's Merlin HC3 helicopter.</span>
+                                    <p></p>
+                                    <ul>
+                                        <li><a href="https://schools-aerospace-challenge.com/wp-content/uploads/2018/12/12.-Team-CAN.pdf" class="tooltipped btn teal lighten-1" data-tooltip="Submission">More info</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header black teal-text">
+                                    <i class="fas fa-car"></i>2018 GreenPower F24 & F24+ Racecar Competition</div>
+                                <div class="collapsible-body black">
+                                    <span class="white-text"> - Head of Marketing team and part of Chasis & Bodywork, Gear Train and Sponsorship teams </span>
+                                    <span class="white-text"> - Won the IET Engineering Award in F24 & F24+ 2018 Roundup </span>
+                                    <p></p>
+                                    <ul>
+                                        <li><a href="https://www.greenpower.co.uk/news/2018-f24-f24-season-roundup" class="tooltipped btn teal lighten-1" data-tooltip="Season Roundup">More info</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- parallax -->
+
+    <div class="parallax-container hide-on-med-and-down">
+        <div class="parallax">
+            <img src="img/prom.JPG" alt="" class="responsive-img">
+        </div>
+    </div>
+    <div class="hide-on-large-only">
+        <div class="">
+            <img src="img/prom copy.JPG" alt="" class="responsive-img">
+        </div>
+    </div>
+
+    <!-- photo / grid -->
+
+    <section class="container scrollspy" id="Photos" style="padding-bottom: 3vw;">
+        <div class="row">
+            <div class="col s12 l12">
+                <h2 class="teal-text">Photos:</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 l5">
+                <img src="img/Chief.jpg" alt="" class="responsive-img materialboxed" style="border-radius: 0.2vw 3vw;">
+            </div>
+            <div class="col s12 l6 offset-l1" style="padding-bottom: 2vw;">
+                <h3 class="teal-text text-lighten-1">Yr 12 - RAF AeroSpace Challenge Finalist</h3>
+                <p class="white-text">Team Photo with Chief of Air Staff, Air Chief Marshall Sir Stephen Hillier, at the RAF Aerospace Finals.</p>
+                <p class="white-text">For more information, check out the Projects section.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 l5 push-l5 offset-l1">
+                <img src="img/car copy.jpg" alt="" class="responsive-img materialboxed" style="border-radius: 3vw 0.2vw;">
+            </div>
+            <div class="col s12 l6 pull-l7 right-align" style="padding-bottom: 2vw;">
+                <h3 class="teal-text text-lighten-1">Yr 13 - GreenPower Electric Racecar Competition</h3>
+                <p class="white-text">Greenpower's Electric Racecar 2018 School Competition Team Firefly - 2 Car Entries built from scratch</p>
+                <p class="white-text">For more information, check out the Projects section.</p>
+            </div>
+        </div>
+        <div class="row">
+            <<div class="col s12 l5">
+                <img src="img/engformal.jpg" alt="" class="responsive-img materialboxed" style="border-radius: 0.2vw 3vw;">
+        </div>
+        <div class="col s12 l6 offset-l1" style="padding-bottom: 2vw;">
+            <h3 class="teal-text text-lighten-1">CGCU Engineering Dinner - 1st Year</h3>
+            <p class="white-text">1st Year CGCU Formal Dinner for undergraduates studying all Engineering Disciplines at Imperial College London</p>
+        </div>
+        </div>
+        <div class="row ">
+            <div class="col s12 l5 push-l5 offset-l1">
+                <img src="img/drama1.jpg" alt="" class="responsive-img materialboxed" style="border-radius: 2.5vw 0.2vw;">
+            </div>
+            <div class="col s12 l6 pull-l7 right-align" style="padding-top: 1vw;">
+                <h4 class="teal-text text-lighten-1">EMW20 Drama (Imperial's IndianSoc Musical) - 1st Year</h4>
+                <p class="white-text">East Meets West (EMW) is the annual cultural show of Imperial College's Indian Society, as one of the oldest student based show in the UK with the 2020 show supporting the Harmony House Charity.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- parallax -->
+
+    <div class="parallax-container hide-on-med-and-down">
+        <div class="parallax">
+            <img src="img/fam2 copy.JPG" alt="" class="responsive-img">
+        </div>
+    </div>
+
+    <div class="hide-on-large-only">
+        <div class="">
+            <img src="img/fam2.jpg" alt="" class="responsive-img">
+        </div>
+    </div>
+    <!-- contact form -->
+
+    <section class="container scrollspy" id="Contact" style="padding-top: 2vw; padding-bottom: 1vw;">
+        <div class="row">
+            <div class="col s12 l5">
+                <h2 class="teal-text">Get in touch!</h2>
+                <p class="white-text">If you're interested in getting in touch for further information please do not hesitate to do so. Feel free to contact me using the form on the right to we can schedule a phone call or you can reach out on any of my social media platforms
+                    below.
+                </p>
+                <p class="white-text">In the future, I aspire to go into Human-Machine Interaction - looking into either Neuro or Upper Limb prosthetics; applying my knowledge and creative thinking at the forefront of such a modern and thriving industry. If you would be a
+                    relevant contact, I would love to get in touch!</p>
+                <p class="white-text">As a Southwark Scholar, I am also partaking in a project looking to provide greater opportunities in academics for students - looking to bridge the gap between state and independent education (of which I have personally experienced). If
+                    you would like to offer any such opportunities through work experience or outreach, I would love for you to get in touch as well!</p>
+            </div>
+            <div class="col s12 l5 offset-l2">
+                <form id="contact-form" method="POST" action="contactform.php" data-netlify="true">
+                    <div class="input-field">
+                        <i class="material-icons prefix">info</i>
+                        <textarea name="name" id="Name" class="materialize-textarea form-control"></textarea>
+                        <label for="Name">Your Full Name</label>
+                    </div>
+                    <div class="input-field">
+                        <i class="material-icons prefix">email</i>
+                        <input type="Email" id="Email" class="form-control">
+                        <label for="Email">Your Email</label>
+                    </div>
+                    <div class="input-field">
+                        <i class="material-icons prefix">message</i>
+                        <textarea name="message" id="Message" class="materialize-textarea form-control"></textarea>
+                        <label for="Message">Your Message</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" id="Date" class="datepicker">
+                        <label for="Date">Choose a date to organise a phone call:</label>
+                    </div>
+                    <div class="input-field teal-text">
+                        <h6>Contact Regarding:</h6>
+                        <p>
+                            <label>
+                                    <input type="Checkbox">
+                                    <span>Web / App Development</span>
+                                </label>
+                        </p>
+                        <p>
+                            <label>
+                                    <input type="Checkbox">
+                                    <span>Educational</span>
+                                </label>
+                        </p>
+                        <p>
+                            <label>
+                                    <input type="Checkbox">
+                                    <span>Work Opportunities</span>
+                                </label>
+                        </p>
+                        <p>
+                            <label>
+                                    <input type="Checkbox">
+                                    <span>Other</span>
+                                    <textarea name="other" id="Other" class="materialize-textarea form-control"></textarea>
+                                </label>
+                        </p>
+                        <div class="input-field center" style="padding-top: 1vw;">
+                            <button class="btn teal darke-2 waves-effect">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="page-footer teal darken-4">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 l5">
+                    <h3>About Me</h3>
+                    <p class="white-text">Born in Lisbon, Portugal and raised in London, England, my academic career has really thrived in recent years alongside my interest in Robotics and Engineering. Alongside my studies at Imperial College London, I am looking to develop
+                        my knowledge in neighbouring disciplines whilst making relevant contacts.</p>
+                </div>
+                <div class="col s8 l2 push-l4" ">
+                    <h3>Connect</h3>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/amaankahmad/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BgibhL6WgTnWB7hdBm9WDyw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_profile_view_base-nav.settings_view_profile&challengeId=AQEx7U-Qs3kzRAAAAXIUgSH9GcULopYR3kLb2Qm-6VkwAUOmzSaLINUtmow3P4hcjHUeky4eoSY3D-_wSyekbdZnXwjWHZqbBw&submissionId=3bcd7756-5ff9-0e16-1be9-068e87b61c3c "
+                                class="white-text ">LinkedIn</a></li>
+                        <li style="padding-top: 1%; "><a href="https://www.facebook.com/amaan.ahmad.71697 " class="white-text ">Facebook</a></li>
+                        <li style="padding-top: 1%; "><a href="mailto:amaankahmad@gmail.com " class="white-text ">Gmail</a></li>
+                        <li style="padding-top: 1%; "><a href="https://github.com/amaankahmad " class="white-text ">GitHub</a></li>
+                    </ul>
+                </div>
+                <div class="col s4 l1 push-l1 hide-on-med-and-down " style="padding-top: 6vw; ">
+                    <ul>
+                        <li>
+                            <a href="https://www.linkedin.com/in/amaankahmad/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BgibhL6WgTnWB7hdBm9WDyw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_profile_view_base-nav.settings_view_profile&challengeId=AQEx7U-Qs3kzRAAAAXIUgSH9GcULopYR3kLb2Qm-6VkwAUOmzSaLINUtmow3P4hcjHUeky4eoSY3D-_wSyekbdZnXwjWHZqbBw&submissionId=3bcd7756-5ff9-0e16-1be9-068e87b61c3c "
+                                class="tooltipped btn-floating btn-small blue lighten-1 pulse " data-tooltip="Linked-In ">
+                                <i class="fab fa-linkedin "></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/amaan.ahmad.71697 " class="tooltipped btn-floating btn-small blue darken-4 pulse " data-tooltip="Facebook ">
+                                <i class="fab fa-facebook-square "></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:amaankahmad@gmail.com " class="tooltipped btn-floating btn-small red darken-2 pulse " data-tooltip="Gmail ">
+                                <i class="material-icons prefix ">email</i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/amaankahmad " class="tooltipped btn-floating btn-small teal pulse " data-tooltip="Github ">
+                                <i class="fab fa-github "></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright grey darken-4 ">
+            <div class="container center-align ">&copy; 2020 amaankahmad</div>
+        </div>
+    </footer>
+
+    <!-- Compiled and minified JavaScript -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js "></script>
+    <script>
+        $(document).ready(function() {
+
+            $('.sidenav').sidenav();
+            $('.materialboxed').materialbox();
+            $('.parallax').parallax();
+            $('.tabs').tabs();
+            $('.datepicker').datepicker({});
+            $('.tooltipped').tooltip();
+            $('.scrollspy').scrollSpy();
+
+        });
+    </script>
+    <!-- Import materialize.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js "></script>
+    <script src="javascript/init.js "></script>
+    <script src="php/contactform.php "></script>
+</body>
+
+</html>
